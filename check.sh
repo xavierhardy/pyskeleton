@@ -5,8 +5,6 @@ SOURCE_DIR="pyskeleton"
 TEST_DIR="tests"
 MIN_COVERAGE=80
 
-
-
 echo "Checking code style with black"
 black --check "$SOURCE_DIR" "$TEST_DIR"
 echo
