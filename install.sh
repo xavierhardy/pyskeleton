@@ -23,7 +23,7 @@ fi
 
 if [ ! -d .venv ]; then
   echo "Creating Python-3 virtual environment..."
-  virtualenv -p python .venv
+  virtualenv -p python3 .venv
 fi
 
 echo "Entering Python-3 virtual environment..."
